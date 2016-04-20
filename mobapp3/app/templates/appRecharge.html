@@ -1,0 +1,40 @@
+<ion-view>
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-header-bar style="color:#FFF">
+        <h1 class="title">Todo</h1>
+      </ion-header-bar>
+  <ion-content class="has-header">
+    <div class="list app-wallet-list">
+		<div class="item item-icon-left aaaa" href="#">
+          <button onclick="window.plugins.toast.showShortTop('Hello there!', function(a){console.log('toast success: ' + a)}, function(b){alert('toast error: ' + b)})">Toast showShortTop</button>
+        </div>
+        <div id="triangle-bottomleft">
+        </div>	
+		<div class="item item-icon-left aaaa" href="#">
+          drddfgdfggf
+        </div>
+        <div id="triangle-bottomleft">
+        </div>	
+		<div class="item item-icon-left aaaa" href="#">
+          drddfgdfggf
+        </div>
+        <div id="triangle-bottomleft">
+        </div>	
+	</div>
+  </ion-content>
+</ion-view>
+<style>
+.aaaa:before {
+content: "";
+position: absolute;
+bottom: 0;
+left: 0px;
+width: 0;
+height: 0;
+border-bottom: 30px solid yellow;
+border-right: 30px solid transparent;
+z-index: 10;
+}
+</style>

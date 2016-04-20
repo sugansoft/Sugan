@@ -1,0 +1,52 @@
+<ion-view title="{{pageHeader}}"  hide-back-button="true" class="mb-app-body">
+	<ion-nav-buttons side="left">
+      <button class="button button-clear" ng-click="goBack()">
+        <i class="icon ion-ios7-arrow-back"></i>
+      </button>
+    </ion-nav-buttons>
+  <ion-content class="has-header padding mb-app-header">
+ 	<div class="list app-balance-history-list">
+		<div class="item item-divider pull-text-center history-header" ng-bind="debitedHistory"></div>
+
+		<div>
+			
+ 		   <span ng-show="myData.showIt2">
+ 			
+ 				 <div style="size:15%;color:#FEE129;text-align: center !important;margin: 0 auto;margin-top:20%;"> &nbsp No History Available!!
+ 			 	<br>
+ 				 <img src="images/logo.png" style="margin-top:22%"/></div>
+ 		     </span>
+  		</div>
+		<!--
+		<div>
+ 			<span ng-show="myData.showIt2" style="position:relative;left:30%;margin-top:20%;" ><br><br><br><br><br><br> <div style="size:15%;color:#FEE129">No History Available!!</div><br><br><br><br><img src="images/logo.png" /></span>
+  		</div>
+		-->
+			<div ng-repeat="debit in debitHistory">	
+				<div class="item item-icon-left" id="main-recharge-history">
+				  
+				  <div class="item-text-wrap" id="history-col-1">
+				  <!--<i class="ion-checkmark-circled"></i>	-->			  	  
+				  {{debit.debited_number}}
+				  <p ng-bind-template="{{debit.network}}">-</p>
+				  </div>
+				  <div id="history-col-2">
+					<span>{{debit.date}}</span>
+					<span id="history-text-right-2">
+						
+						<div>Status: 
+						<span ng-show="1 == {{debit.debited_status}}" id="success" ng-bind-template="Success">-</span>
+						<span ng-show="0 =={{debit.debited_status}}" id="pending" ng-bind-template="Pending">-</span>
+						<span ng-show="2 =={{debit.debited_status}}" id="failed" ng-bind-template="Failed">-</span>
+						<span ng-show="3 =={{debit.debited_status}}" id="failed" ng-bind-template="Failed">-</span>
+						</div>
+					</span>		  
+				  </div>
+				  <div id="item-balance">
+					<p id="debit">{{siteCurrency}}&nbsp;<span ng-bind-template="{{debit.amount}}">0.00</span></p> 
+				  <div> 	  
+			</div>
+		</div>
+	</div>	
+  </ion-content>
+</ion-view>

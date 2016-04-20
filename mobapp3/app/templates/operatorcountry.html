@@ -1,0 +1,17 @@
+<ion-view hide-back-button="true" class="mb-app-body">
+	<ion-content>
+		<div ng-repeat="item in items" > 
+			<ul class="list">
+			   <li class="item item-checkbox">
+				   {{item.country}}
+				 <label class="checkbox checkbox-energized">
+			  <input type="checkbox" ng-model="sel.val" ng-click="value1(item.id,item.country)" value="{{item.country}}" />
+				   <div class="track">
+					 <div class="handle"></div>
+				   </div>
+				 </label>
+			  </li>
+			</ul>
+		</div>
+	</ion-content>
+</ion-view>

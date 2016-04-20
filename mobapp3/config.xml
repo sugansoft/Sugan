@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.mobapp.MOBBANNER" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+
+ <feature name="IMEIPlugin">
+		
+        <param name="android-package" value="com.simonmacdonald.IMEIPlugin" />
+    </feature>
+    <feature name="LocalNotification">
+        <param name="android-package" value="de.appplant.cordova.plugin.localnotification.LocalNotification" />
+</feature>
+    <name>MOBBANNER</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+	<preference name="orientation" value="portrait" />
+	<plugin name="LocalNotification" value="org.apache.cordova.plugins.LocalNotification"/>
+</widget>

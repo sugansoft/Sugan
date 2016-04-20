@@ -1,0 +1,88 @@
+<ion-view title='{{pageHeader}}' hide-back-button="true" class="mb-app-body">
+<ion-nav-buttons side="left">
+      <button class="button button-clear" ng-click="goBack()">
+        <i class="icon ion-ios7-arrow-back"></i>
+      </button>
+</ion-nav-buttons>
+
+ <form name="registerForm"  id="registerForm" novalidate ng-submit="save(user)"> 
+   <ion-content class="has-header padding">
+ 
+
+   <div class="item item-divider pull-text-center history-header" ng-bind="profile">PROFILE</div>
+
+   
+    <div class="list app-balance-list" ng-repeat="Profile in availUserProfile">
+  
+    
+		<div class="item app-balance-list-container">
+			<span class="balance-label">Name :
+         		<span class="balance-text">{{Profile.first_name}}</span>
+				 <div ng-class="{ 'has-error' : registerForm.firstname.$invalid && !registerForm.firstname.$pristine }">
+			<label class="item item-input register-input">
+				<input type="text" placeholder="Update Your Name Here..." name="firstname" class="form-control"  ng-pattern="namepattern" ng-model="user.firstname" ng-minlength="3" value="Profile.first_name" ng-maxlength="20" required autofocus>
+			</label>
+		</div>
+			
+			</span>
+       		</div>
+       		<div>
+       		<p ng-show="registerForm.firstname.$invalid && !registerForm.firstname.$pristine && !registerForm.firstname.$error.minlength && !registerForm.firstname.$error.maxlength && !registerForm.firstname.$valid" class="help-block">Valid Name Required.</p>
+
+		<p ng-show="registerForm.firstname.$error.minlength" class="help-block">Minimum 3 characters required</p>
+		<p ng-show="registerForm.firstname.$error.maxlength" class="help-block">Maximum 20 characters allowed</p>
+		</div>
+			
+       		<!------------------------- NAME ------------------------------------------->	
+		
+			
+
+		
+		<div class="item app-balance-list-container">
+         
+			<span class="balance-label">Mobile Number</span>
+			<span class="balance-text">
+				 {{Profile.mobile_no}}
+			</span>
+       		</div>
+       		
+       		<div class="item app-balance-list-container">
+         
+			<span class="balance-label">Email</span>
+			<span class="balance-text">
+				 {{Profile.email}}
+			</span>
+       		</div>
+
+
+		<div class="item app-balance-list-container">
+         
+			<span class="balance-label">Gender</span>
+			<span class="balance-text">
+				 {{Gender}}
+			</span>
+       		</div>
+
+
+		<div class="item app-balance-list-container">
+         
+			<span class="balance-label">Age</span>
+			<span class="balance-text">
+				 {{age}}
+			</span>
+       		</div>
+       		
+		<center>
+		<div id="login-button-2-div">
+			<button class="button login-button-2" ng-disabled="registerForm.$invalid">{{profileSubmit}}</button>
+		</div>
+		</center>
+		
+     <div>	        
+    
+
+ </form>
+  </ion-content>
+</ion-view>
+
+

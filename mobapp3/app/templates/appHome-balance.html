@@ -1,0 +1,47 @@
+<ion-view title="{{pageHeader}}"  hide-back-button="true" class="mb-app-body">
+	<ion-nav-buttons side="left">
+		<button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+	</ion-nav-buttons>
+  <ion-content class="has-header padding">
+    <div class="list app-balance-list">
+		<div class="item app-balance-list-container" href="#">
+          <!--<i class="icon ion-ios7-upload-outline"></i>-->
+			<span class="balance-label">{{totalCredited}}</span>
+			<span class="balance-text">
+				{{siteCurrency}}&nbsp;
+				<span ng-bind-template="{{getTotal.totalEarnings}}"></span>
+			</span>
+        </div>
+		<div class="item app-balance-list-container" href="#">
+          <!--<i class="icon ion-ios7-download-outline"></i>-->
+			<span class="balance-label">{{totalDebited}}</span> 
+			<span class="balance-text">{{siteCurrency}}&nbsp;
+				<span ng-bind-template="{{totalRecharge1}}"></span>
+			</span>
+        </div>		
+		<div class="item app-balance-list-container" href="#">
+          <!--<i class="icon ion-cash"></i>-->
+			<span class="balance-label">{{currentBalance}}</span>
+			<span class="balance-text">{{siteCurrency}}&nbsp;
+				<span ng-bind-template="{{currentBalance1}}"></span>
+			</span>
+        </div>
+        <div id="recharge-history-buttons-content">
+			<div id="recharge-history-first">
+				<button class="button" ng-click="rechargeUser();">
+				&nbsp;<i class="ion-thumbsup recharge-icon"></i>
+				<span>{{rechargeNow}}</span>
+				</button>
+			</div>	
+		</div>
+		<div  style="margin:0 auto;text-align:center;padding-top:5%">
+		<div class="buttons">
+				<button class="button icon text-size-12 historyButton" ng-click="goCredit();">{{creditHistory}}</button>
+				<button class="button icon text-size-12 historyButton" ng-click="goDebit();">{{debitHistory}}</button>
+         </div>
+		</div>
+		
+		<div class="body-padding"></div>	        
+	</div>
+  </ion-content>
+</ion-view>

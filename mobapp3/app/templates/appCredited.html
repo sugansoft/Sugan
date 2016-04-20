@@ -1,0 +1,34 @@
+<ion-view title="{{pageHeader}}"  hide-back-button="true" class="mb-app-body">
+	<ion-nav-buttons side="left">
+      <button class="button button-clear" ng-click="goBack()">
+        <i class="icon ion-ios7-arrow-back"></i>
+      </button>
+    </ion-nav-buttons>
+  <ion-content class="has-header padding mb-app-header">
+	<div class="list app-balance-history-list">
+	
+		<div class="item item-divider pull-text-center history-header" ng-bind="creditedHistory"></div>
+		<div>
+			
+ 		   <span ng-show="myData.showIt2">
+ 			
+ 				 <div style="size:15%;color:#FEE129;text-align: center !important;margin: 0 auto;margin-top:20%;"> &nbsp No History Available!!
+ 			 	<br>
+ 				 <img src="images/logo.png" style="margin-top:22%"/></div>
+ 		     </span>
+  		</div>
+			<div ng-repeat="credit in creditHistory">	
+				<div class="item" id="main-recharge-history">
+				  <div class="item-text-wrap" id="c-history-col-1">For installing {{credit.title}} app </div>
+				  <div id="c-history-col-2">
+					<span>ID: {{credit.id}}</span>
+					<span id="text-right-2">{{credit.date}}</span>		  
+				  </div>
+				  <div id="item-balance">
+					<p id="credit">{{siteCurrency}}&nbsp;<span ng-bind-template="{{credit.points}}">0.00</span></p> 
+				  <div> 	  
+			</div>
+		</div>
+	</div>
+  </ion-content>
+</ion-view>

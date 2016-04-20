@@ -1,0 +1,17 @@
+<ion-view hide-back-button="true" class="mb-app-body">
+	<ion-content>
+		<div ng-repeat="item in items" style="font-size:12px;size:10px"> 
+			<ul class="list" style="font-size:12px;size:10px">
+			   <li class="item item-checkbox" style="font-size:12px;size:10px">
+				   {{item.operators}}
+				 <label class="checkbox checkbox-energized" style="font-size:12px;size:10px">
+			  <input type="checkbox" ng-model="sel.val" ng-click="value(item.id,item.operators,item.key)" value="{{item.operators}}" style="font-size:12px;size:10px"/>
+				   <div class="track">
+					 <div class="handle"></div>
+				   </div>
+				 </label>
+			  </li>
+			</ul>
+		</div>
+	</ion-content>
+</ion-view>

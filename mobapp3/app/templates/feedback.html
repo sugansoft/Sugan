@@ -1,0 +1,51 @@
+<ion-view title='{{pageHeader}}' hide-back-button="true" class="mb-app-body">
+<ion-nav-buttons side="left">
+      <button class="button button-clear" ng-click="goBack()">
+        <i class="icon ion-ios7-arrow-back"></i>
+      </button>
+</ion-nav-buttons>
+   <ion-content class="has-header padding">
+ 
+<form name="registerForm"  id="registerForm" ng-submit="feedbacksubmit(user)" >
+	<div class="list list-inset form-list">
+		<div class="item item-divider pull-text-center history-header" ng-bind="Feedback"></div>			
+		<!-------------------------Option ------------------------------------------->	
+		<div>
+			<div ng-class="{ 'has-error' : registerForm.option.$invalid && !registerForm.option.$pristine}">
+			<label class="item item-input register-input">
+			Option : 
+			<select name="option" placeholder="Option" class="form-control" ng-model="user.option"  style="background:#141414;height:100%;width:80%;color:white;border:none" title="Option" required>
+				<option value="Recharge Problem">Recharge Problem</option>
+				<option value="Suggestion">Suggestion</option>
+				<option value="Advertise with us">Advertise with us</option>
+				<option value="Others">Others</option>
+			</select>
+			</label>
+			</div>
+		</div><br>
+		<!------------------------ Comments ----------------------------------->
+		<div>
+			<div ng-class="{ 'has-error' : registerForm.comments.$invalid && !registerForm.comments.$pristine}">
+			<label class="item item-input register-input">
+			<textarea placeholder="Type Your feedback here" rows="8" cols="50" name="comments" class="form-control" ng-model="user.comments" style="background:#141414;color:white;border:none" required>
+				</textarea> 
+			</label>
+			</div>
+		</div>
+		
+		<br>
+		
+		<!------------------------ Recharge Button ----------------------------------->
+		        <div id="recharge-history-buttons-content">
+			<div id="recharge-history-first">
+				<button class="button" ng-disabled="registerForm.$invalid">
+				&nbsp;<i class="ion-thumbsup recharge-icon"></i>
+				<span>SEND</span>
+				</button>
+			</div>	
+			</div>
+		
+	
+</form>
+  </ion-content>
+</ion-view>

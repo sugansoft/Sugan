@@ -1,0 +1,34 @@
+<ion-view title="{{pageHeader}}"  hide-back-button="true" class="mb-app-body">
+	
+    </ion-nav-buttons>
+	<ion-content class="has-header padding mb-app-header">
+	<form name="categoryForm" id="categoryForm" >
+	<div style="background-color:#FDD927;border-color:#FDD927;font-size:15px;float:left;padding: 6px 8px 6px 8px;color:black" ng-click="uncheckAll()"> UnSelectAll</div>
+	
+<div style="background-color:#FDD927;border-color:#FDD927;font-size:15px;float:right;color:black;padding: 6px 8px 6px 8px" ng-click="checkAll()">&nbspSelectAll&nbsp</div>
+<br><br>
+  <br>
+		<div ng-repeat="role in roles"> 
+			<ul class="list" id="categoryContent">
+			   <li class="item item-toggle">
+				   {{role.category_name}}
+				 <label class="toggle toggle-energized">
+			  <input type="checkbox" checklist-model="user.roles" checklist-value="role.category_id" />
+			  
+				   <div class="track">
+					 <div class="handle"></div>
+				   </div>
+				 </label>
+			  </li>
+			</ul>
+		</div>
+
+		<div class="padding">
+		<button class="button button-block login-button-2" ng-click="categorySubmit(registerForm.$valid,user)"  ng-disabled="categoryForm.$invalid">Submit</button>
+	</div>
+	<div>
+<!--	{{user.roles}} -->
+	</div>
+	</form>
+	</ion-content>
+</ion-view>

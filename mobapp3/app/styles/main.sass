@@ -1,0 +1,668 @@
+/* Your app's SASS, go crazy, make it your own */
+ 
+/*VARIABLES*/
+$mb-bar-grey: #B8B6AA
+$mb-bar-green: #66cc33
+$mb-bar-yellow: #FDD927
+$mb-bar-yellow-2: #D9BC2E
+$mb-bar-yellow-3: #FDDC27
+$mb-bar-yellow-4: #FEE129
+$mb-black-1: #141414
+$mb-black-2: #222222
+$mb-black-3: #333333
+$mb-black-4: #2E2E2E
+$mb-black-5: #5A5A5A
+$mb-black-6: #111111
+$mb-black-7: #444444
+$mb-black-8: #1E1E1E
+$mb-black-9: #0D0D0E
+$mb-black-10: #777777
+$mb-black-11: #303030
+$mb-light-1: #FFFFFF
+$mb-red-1:  #bd362f
+$mb-red-2: #D43F3B
+$mb-red-3: #ef4e3a
+
+/*MIXINS*/
+=border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius:    $radius
+  -ms-border-radius:     $radius
+  border-radius:         $radius
+
+#outer1
+  display: table
+  width: 100%
+  height: 50%
+  background-color: pink
+
+#inner1
+  display: table-cell
+  vertical-align: middle
+  text-align: center
+  color: blue
+
+a
+  text-decoration: none !important
+  cursor: pointer
+
+.ionic-logo
+  display: block
+  margin: 15px auto
+  width: 96px
+  height: 96px
+
+.pull-left
+  float: left
+  
+.pull-right
+  float: right
+
+.pull-text-center
+  text-align: center !important
+  margin: 0 auto
+  
+.content-size-max
+  width: 100%
+
+.content-size-5
+  width: 5%
+
+.text-size-10
+  font-size: 10px !important
+
+.text-size-12
+  font-size: 12px
+
+input.checkbo
+  height: 15px
+  width: 15px
+
+input.radi
+  height: 15px
+  width: 15px
+
+.card, 
+.list-inset
+  margin: 5px 10px 12px 10px
+  background-color: $mb-black-1 !important
+
+.mb-header
+  background-color: $mb-black-1
+  width: 100%
+  text-align: center
+  border: none
+  padding: 5%
+  padding-bottom: 2px
+
+#bar-app-header
+  border-color: $mb-black-1
+  background-color: $mb-black-1
+  background-image: $mb-black-1
+
+.app-logo-image
+  margin: 0 auto
+  width: 50%
+  padding-top: 5%
+  padding-bottom: 20%
+
+.login-bar
+  background-color: $mb-black-1
+  
+.login-button-1
+  background-color: $mb-bar-grey
+  border-color: $mb-bar-grey
+  font-size: 16px
+  
+.login-button-2
+  background-color: $mb-bar-yellow
+  border-color: $mb-bar-yellow
+  font-size: 16px
+  
+.login-footer-bar
+  background-color: $mb-black-1
+  padding-top: 3%
+  font-size: 36px
+  color: $mb-bar-yellow-2
+  width: 100%
+  position: absolute
+  bottom: 0
+  margin: 0 auto
+  text-align: center
+
+.app-success
+  background-color: $mb-black-5  
+  color: $mb-bar-yellow
+
+.mb-app-header .menu
+  background-color: $mb-black-2
+  color: $mb-light-1    
+
+.mb-app-body
+  background-color: $mb-black-1
+  color: $mb-light-1
+
+ion-nav-bar,
+ion-footer-bar
+  color: $mb-light-1 !important
+  background-color: $mb-black-2 !important
+  
+ion-nav-view
+  color: $mb-light-1
+
+input[type=email],
+input[type=text],
+input[type=password],
+input[type=number],
+input[type=email],
+  color: $mb-light-1 !important
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+p,
+.ion-navicon
+  color: $mb-light-1 !important
+  
+.title
+  background-image: url('../images/logo1.jpg')
+  background-repeat: no-repeat
+  background-attachmen: fixed
+  background-position: center 
+  //color: $mb-light-1
+  //font-weight: bolder
+  //font-size: 25px !important
+  //font-family: 'Century Gothic'
+  span
+    //color: $mb-bar-yellow
+    //font-weight: bolder
+    //font-size: 25px !important
+    //line-height: 32px !important
+    //font-family: 'Century Gothic'
+
+.item
+  border-color: $mb-black-1
+  background-color: $mb-black-4
+  color: $mb-light-1
+  border-width: 1px
+  border-style: solid
+  
+.item-complex .item-content, .item-radio .item-content
+  color: $mb-light-1 !important
+  background-color: $mb-black-8 !important
+  padding: 15px 45px 10px 15px !important
+  
+.item .item-content.activated
+  background-color: $mb-black-3 !important
+  
+.app-list-avatar
+  border-color: $mb-black-1
+  background-color: $mb-black-4
+  color: $mb-light-1
+  border-width: 1px
+  border-style: solid
+  position: relative
+  z-index: 2
+  display: block
+  margin: -1px
+  padding: 10px
+  font-size: 16px
+
+.triangle-bottom-left
+  width: 0
+  height: 0
+  border-bottom: 100px solid $mb-bar-yellow-2
+  border-right: 100px solid transparent
+
+.mb-app-list-amount
+  width: 42px 
+  height: 42px
+  background: $mb-black-5
+  position: absolute
+  top: 8% !important
+  right: 5% !important
+  +border-radius(50%)
+  #inner-amount
+    margin: 0 auto
+    text-align: center
+    line-height: 42px
+    color: $mb-bar-yellow
+    font-size: 12px
+    span
+      font-size: 14px
+      font-weight: bolder
+
+#app-detail-amount
+  position: absolute
+  top: 15% !important
+  right: 5% !important
+ 
+.appborder
+  border-color: $mb-black-4
+  border-top-color: $mb-black-1
+      
+.balance-text
+  position: absolute
+  float: right
+  color: $mb-bar-yellow-3
+  right: 6% !important
+  span
+    font-weight: bolder
+
+.balance-label
+  font-size: 14px
+	
+.app-balance-list-container	
+  border-bottom-width: 12px
+  width: 92%
+  margin: 0 auto
+	
+.app-balance-list-container1	
+  border-bottom-width: 12px
+  width: 92%
+  margin: 0 auto
+  	
+.app-list-install-button
+  color: $mb-light-1
+
+.main-app-list
+  margin-top: 10px
+  a
+    text-decoration: none !important
+
+.app-list-box
+  margin: 10px 10px
+
+.app-list-sec-install-box
+  padding: 5px 5px 5px 10px
+  
+.force-right-15
+  padding-right: 15px
+  
+.tabs .tab-item
+  color: $mb-light-1 !important 
+
+.tabs-top.tabs-striped .tab-item.tab-item-active, .tabs-top.tabs-striped .tab-item.active, .tabs-top.tabs-striped .tab-item.activated
+  margin-top: 0
+  margin-bottom: -4px
+  border-width: 0px 0px 8px 0px !important
+  border-bottom-color: $mb-bar-yellow
+
+.tabs-striped .tab-item + .tab-item:before
+  border-left: 1px solid $mb-black-1
+  color: $mb-light-1 !important
+
+.tabs-striped .tabs
+  border-color: $mb-black-6
+  background-color: $mb-black-7
+  background-image: linear-gradient(0deg, $mb-black-6, $mb-black-6 50%, transparent 50%)
+  color: $mb-light-1
+
+.app-wallet-list  
+  line-height: 45px !important
+  
+.app-balance-list
+  line-height: 25px !important
+
+.app-list:before
+  content: ""
+  position: absolute
+  bottom: 0
+  left: 0px
+  width: 16px
+  height: 16px
+  //border-bottom: 22px dashed $mb-bar-yellow
+  //border-right: 25px solid transparent
+  background-image: url('../images/side.jpg')
+  z-index: 10
+  line-height: 28px
+  text-indent: 2px
+  color: $mb-light-1
+  border-bottom-right-radius: 3px
+  border-top-left-radius: 3px
+
+.app-list-avatar
+  padding-left: 70px
+
+.app-list-avatar > img:first-child
+  top: 7px
+  left: 8px
+  max-width: 46px
+  max-height: 46px
+
+.app-list-install-content
+  padding-left: 10px
+  @extend .text-size-10
+
+.form-list
+  padding-bottom: 0px !important 
+
+.input-error-text
+  margin: 0
+  color: #f38481 !important
+  background-color: $mb-black-1 !important
+  padding: 10px
+  font-weight: bolder
+
+ion-nav-back-button
+  color: $mb-light-1 !important
+
+ion-item
+  width: 100%
+  .side-menu-icon
+    color: $mb-bar-yellow-4
+    font-size: 25px
+    vertical-align: text-bottom
+    padding: 0 5px 0 5px  
+    width: 28%
+    float: left
+    font-weight: bolder
+  span
+    width: 72%
+    float: left
+    padding-top: 6px
+
+.side-menu-icon::before
+  font-weight: bolder 
+
+.side-menu-icon-2
+  font-size: 23px
+  vertical-align: text-bottom
+
+.bar-header
+  border-bottom-color: $mb-black-1  !important
+
+#inputcolor
+  color: $mb-bar-yellow
+  font-color: $mb-bar-yellow
+  font-size: 120%
+  background: $mb-black-1
+
+#login-header
+  background-color: $mb-black-1
+  margin: 0 auto
+  text-align: center
+  img
+    max-width: 80%
+    padding-top: 10%
+      
+#login-container
+  background-color: $mb-black-1
+  margin: 0 auto
+  text-align: center
+  padding: 20% 1% 38% 0%
+  #inner-container
+    background-color: $mb-black-1
+    
+#login-button-2-div
+  padding-top: 5%
+
+#login-footer
+  background-color: $mb-black-1 !important
+
+.button-yellow
+  background-color: $mb-bar-yellow
+  border-color: $mb-bar-yellow
+
+.scroll-refresher
+  width: 100%
+
+#inner-footer
+  left: 0 !important
+  right: 0 !important
+  background-color: $mb-black-1 !important
+
+.app-dark-tabs
+  background-color: $mb-black-3
+
+.grade-b .menu-content,
+.grade-c .menu-content
+  border-left: none
+
+
+#recharge-history-buttons-content
+  padding-top: 5%
+  text-align: center
+  #recharge-history-first
+    button
+      background-color: $mb-bar-yellow
+      border-color: $mb-bar-yellow
+      font-size: 16px
+      font-weight: bolder
+    .recharge-icon
+      font-size: 33px
+      position: absolute
+      top: 2%
+    span
+      padding-left: 35px
+  .row
+    padding-top: 20px
+    a
+      background-color: $mb-bar-grey
+      border-color: $mb-bar-grey
+      font-size: 12px
+      font-weight: bolder
+
+#credit-debit-button
+  margin: 0 auto
+  text-align: center
+  padding: 5%
+  width: 100%
+  .inner-content
+    width: 50%
+    float: left
+    a
+      background-color: $mb-bar-grey
+      border-color: $mb-bar-grey
+      font-size: 12px !important
+      .credit
+        float: right
+      .debit
+        float: left
+        
+#app-credited-list
+  line-height: 25px
+
+.app-balance-history-list
+  line-height: 16px  
+  
+#main-recharge-history
+  padding: 0
+  border-bottom-width: 12px
+
+.history-header
+  border-bottom-width: 12px
+
+#history-col-1
+  width: 80%
+  padding: 10px 0 8px 10px
+  border-bottom-width: 1px
+  border-right-width: 1px
+  border-style: solid
+  border-color: $mb-black-9 !important
+  font-size: 14px
+  p
+    font-size: 10px
+    padding: 2px 0 2px 0
+    color: $mb-black-10 !important
+
+#history-col-2
+  width: 80%
+  padding: 10px 0 20px 10px
+  border-right-width: 1px
+  border-style: solid
+  border-color: $mb-black-9 !important
+  font-size: 10px
+  font-weight: bolder
+  color: $mb-black-10
+  #history-text-right-2
+    float: right
+    padding-right: 5px
+    div
+      #success
+        color: $mb-bar-green
+      #failed
+        color: $mb-red-3
+      #pending
+        color: $mb-bar-yellow-3
+        
+#c-history-col-1
+  width: 80%
+  padding: 12px 0 12px 10px
+  border-bottom-width: 1px
+  border-right-width: 1px
+  border-style: solid
+  border-color: $mb-black-9 !important
+  font-size: 14px
+  p
+    font-size: 10px
+    padding: 2px 0 2px 0
+    color: $mb-black-10 !important
+
+#c-history-col-2
+  width: 80%
+  padding: 10px 0 2px 10px
+  border-right-width: 1px
+  border-style: solid
+  border-color: $mb-black-9 !important
+  font-size: 10px
+  font-weight: bolder
+  color: $mb-black-10
+  #text-right-2
+    float: right
+    padding-right: 5px
+    
+#item-balance
+  position: absolute
+  top: 0px
+  right: 0px
+  max-width: 100px
+  max-height: 100px
+  width: 20%
+  height: 100%
+  #credit
+    width: 100%
+    margin: 0 auto
+    text-align: center
+    line-height: 63px
+    color: $mb-bar-yellow-3 !important
+    font-size: 14px
+    span
+      font-weight: bolder
+      font-size: 14px
+  #debit
+    width: 100%
+    margin: 0 auto
+    text-align: center
+    padding: 40px 4px 0 4px
+    color: $mb-bar-yellow-3 !important
+    font-size: 14px
+    span
+      font-weight: bolder
+      font-size: 14px
+
+#noInternet
+  color: #FFF
+  .title
+    font-size: 16px !important
+    
+#registerForm
+  .help-block    
+    @extend .input-error-text 
+    text-align: center
+  .item 
+    background-color: $mb-black-1
+         
+.register-input
+  border-color: $mb-black-1
+  background-color: $mb-black-1
+  color: $mb-light-1
+  border-width: 2px
+  border-style: solid
+  border-bottom-color: $mb-black-4
+  input
+    color: $mb-light-1
+    text-align: center
+    font-size: 14px
+  .input-label
+    background-color: $mb-black-1
+    color: $mb-light-1
+    font-weight: normal
+    font-size: 14px  
+
+#register_radio
+  padding: 25px 0px 10px 10px
+
+.no-item-width
+  border-width: 0px !important
+  padding-top: 0px
+
+#appHome-offer
+  .app-list-avatar
+    border-width: 0px !important
+  .item-divider
+    @extend .no-item-width
+  .item-avatar, 
+  .item-avatar .item-content,
+  .item-avatar-left,
+  .item-avatar-left .item-content
+    min-height: 63px
+  .app-list-detail
+    @extend .no-item-width
+  .item-image
+    @extend .no-item-width
+    padding-top: 10px
+  .item-divider
+    min-height: 0px
+    padding-bottom: 3px  
+  .list:last-child
+    margin-bottom: 10px
+
+.bar
+  background-image: none !important
+
+.body-padding
+  clear: both
+  padding-top: 2%
+
+#app-detail-install
+  @extend .pull-text-center
+  padding: 15px 10px 10px 10px
+  button
+    font-size: 12px
+
+#countryItems
+  .item
+    padding: 5px 15px 5px 15px
+
+.historyButton
+  background-color: $mb-bar-grey !important
+  border-color: $mb-bar-grey !important
+
+.app-button-yellow
+  background-color: $mb-bar-yellow
+  border-color: $mb-bar-yellow
+  
+#offer-wall-install
+  font-size: 12px
+  padding: 0px 8px 0px 8px
+
+#categoryContent
+  line-height: 12px
+  .item-toggle .toggle
+    position: absolute
+    top: 3.5px
+    right: 15px
+    z-index: 3
+  .item
+    background-color: $mb-black-1
+    border-bottom-color: $mb-black-11

@@ -1,0 +1,43 @@
+<ion-view class="bubble-background login-bar" hide-nav-bar="true">
+	<ion-content hide-nav-bar="true" has-header="false">
+	<!--APP LOGO START-->
+	<div class="mb-header" >
+		 <img class="app-logo-image" src='images/logo.png'>
+	</div>
+	<!--APP LOGO END-->     
+	<form name="signInForm" noValidate>			
+		<!--FORM CONTENT START-->
+		<div class="list list-inset form-list">
+			<div ng-class="{'has-error': signInForm.email.$invalid}"> 
+			<label class="item item-input">
+				<i class="icon ion-email placeholder-icon"></i>
+				<input type="email" ng-model="user.email" name="email" placeholder='Email' autofocus required>
+			</label>
+			</div>
+			<p ng-cloak class="input-error-text" ng-show="signInForm.email.$error.required && signInForm.email.$dirty">Email id is Required</p>
+			<p ng-cloak class="input-error-text" ng-show="signInForm.email.$invalid && !signInForm.email.$error.required">Enter valid Email id</p>
+			
+			<div ng-class="{'has-error': signInForm.password.$invalid}">
+			<label class="item item-input">
+				<i class="icon ion-key placeholder-icon"></i>
+				<input type="{{inputType}}" ng-model="user.password" name="password" placeholder='Password' required ng-minlength=6>
+			</label>
+			</div>
+			<p ng-cloak class="input-error-text" ng-show="signInForm.password.$error.required && signInForm.password.$dirty && !signInForm.password.$error.minlength">Password is Required</p>
+			<p ng-cloak class="input-error-text" ng-show="signInForm.password.$error.minlength && !signInForm.password.$error.required">Enter 6 characters atleast</p>
+		</div>	
+		<div>
+		<center>
+		<input type="checkbox" id="checkbox" class="checkbo" ng-model="passwordCheckbox" ng-click="hideShowPassword()" />&nbsp&nbsp
+		<label for="checkbox" ng-if="passwordCheckbox">  Hide Password</label>
+		<label for="checkbox" ng-if="!passwordCheckbox">  Show Password</label> 
+		</center>
+		</div>
+		<div class="padding">
+			<button class="button button-block login-button-2" ng-disabled="signInForm.$invalid" ng-click="signIn(user)">{{signinBtnTxt}}</button>			
+			<button class="button button-block button-clear button-stable" ng-click="resetPassword()">{{forgotPassword}}</button>
+		</div>
+		<!--FORM CONTENT END-->
+	</form>  
+	</ion-content>
+</ion-view>

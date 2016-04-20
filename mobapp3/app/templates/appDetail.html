@@ -1,0 +1,53 @@
+<ion-view title='{{pageHeader}}' class="mb-app-body">
+     <ion-nav-buttons side="left">
+      <button class="button button-clear" ng-click="goBack()">
+        <i class="icon ion-ios7-arrow-back"></i>
+      </button>
+    </ion-nav-buttons>
+<ion-content has-header="true">
+<ion-list>
+	<div class="body-padding">
+		<div id="appHome-offer">
+			<div class="list card">
+				<div class="item item-avatar app-list-avatar">
+				  <img src="{{filename}}">
+				  <div class="content-size-max">
+					<div class="pull-left">
+						<h2>{{bannertext}}</h2>
+						<p class="text-size-10">{{quotes}}</p>
+					</div>
+					<div class="pull-left content-size-5">
+						<span class="mb-app-list-amount">
+							<div id="inner-amount">
+								{{currency}}<span>{{points}}</span>
+							</div>
+						</span>
+					</div>
+				  </div>
+				</div>
+					<div class="item item-divider appborder">
+					<span class="pull-left text-size-12 item-text-wrap">Download and Install this app. Run it for 30 seconds and 							get {{currency}}&nbsp;{{points}} free talk time.</span>
+					<span class="pull-left text-size-12 item-text-wrap">Money will be credited within 48 hours.</span>    
+			</div>
+			
+			<div class="item item-image">
+					<img src="{{imgUrl}}{{big_picture}}">
+					
+			</div>		
+			<div class="item item-divider app-list-detail">
+				<div id="app-detail-install">
+					<button class="button button-yellow app-list-install-button" ng-click="goPlayStore(click_url)">
+					  INSTALL AND GET {{currency}}&nbsp;{{points}}
+					</button>
+				</div>
+				<div class="item-text-wrap text-size-12" ng-repeat="app in PageContent">
+					{{app.page_content}}
+					<br><br>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</ion-list>
+</ion-content>
+</ion-view>

@@ -1,0 +1,63 @@
+<ion-view title="{{pageHeader}}"  hide-back-button="true" class="mb-app-body">
+	<ion-nav-buttons side="left">
+		<button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+	</ion-nav-buttons>
+	
+	
+	<ion-content class="has-header padding mb-app-header">
+		<form name="registerForm"  id="registerForm" novalidate ng-submit="recharge(user)" >
+
+
+		
+		<!--FORM CONTENT START-->
+
+
+		
+		<div class="list list-inset form-list">
+
+
+
+
+		 <!------------------------ MOBILE NUMBER---------------------------------------------------->
+		<div ng-class="{ 'has-error' : registerForm.mobile.$invalid && !registerForm.mobile.$pristine}">
+			<label class="item item-input register-input">
+				<input type="number" placeholder="Mobile Number" name="mobile" class="form-control" ng-model="user.mobile" ng-minlength="10" ng-maxlength="10"  ng-pattern="/^[1-9]+[0-9]*$/" ng-trim="false" required autofocus>
+				
+			</label>
+		</div>
+		<p ng-show="registerForm.mobile.$invalid && !registerForm.mobile.$pristine && !registerForm.mobile.$error.minlength && !registerForm.mobile.$error.maxlength && !registerForm.mobile.$valid" class="help-block">Phone No Required.</p>
+		<p ng-show="registerForm.mobile.$error.minlength && !registerForm.mobile.$error.required " class="help-block">10 Digit Number required</p>
+		<p ng-show="registerForm.mobile.$error.maxlength && !registerForm.mobile.$error.required" class="help-block">10 Digit Number required</p>
+
+
+		<!------------------------ Mobile Operator ----------------------------------->
+		<div ng-class="{ 'has-error' : registerForm.operator.$invalid && !registerForm.operator.$pristine }">
+			<label class="item item-input register-input" ng-click="select()">
+				<input type="text" placeholder="Mobile Operator" name="operator" class="form-control" ng-model="user.operator" readonly="true" style="background-color:#141414;color:white" required>
+			</label>
+		</div>
+		
+
+
+		<!------------------------ Amount ----------------------------------->
+		<div ng-class="{ 'has-error' : registerForm.amount.$invalid && !registerForm.amount.$pristine }">
+			<label class="item item-input register-input">
+				<input type="number" placeholder="Amount" name="amount" class="form-control"  ng-pattern="/^[0-9]{1,5}$/" ng-model="user.amount" ng-trim="false" required>
+			</label>
+		</div>
+		<p ng-show="registerForm.amount.$invalid && !registerForm.amount.$pristine && !registerForm.amount.$error.minlength && !registerForm.amount.$error.maxlength && !registerForm.amount.$valid" class="help-block">Numbers Required</p>
+					
+		
+	</div>		
+	<center>
+	<div id="login-button-2-div">
+		<button class="button login-button-2" ng-disabled="registerForm.$invalid">RECHARGE!</button>
+	</div>
+	</center>
+	<!--FORM CONTENT END-->
+		
+	</form>
+	</ion-content>
+
+	
+</ion-view>

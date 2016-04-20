@@ -1,0 +1,85 @@
+<ion-view title='{{pageHeader}}' hide-back-button="true" class="mb-app-body">
+<ion-nav-buttons side="left">
+      <button class="button button-clear" ng-click="goBack()">
+        <i class="icon ion-ios7-arrow-back"></i>
+      </button>
+</ion-nav-buttons>
+<ion-content class="has-header padding mb-app-header">
+	<div class="list app-balance-history-list">
+	<!--
+		<div class="item item-divider pull-text-center history-header" ng-bind="Terms"></div>
+			<div>	
+				<div class="item item-body" style="background-color:white;color:black">				 
+					<ion-scroll  direction="y">
+						<div style="background-color:white;color:black;height:80px" can-swipe="true" >
+							<span style="text-align: center !important;margin: 0 auto"></span><br>
+								<span> 
+
+This is the Android Software Development Kit License Agreement
+
+1. Introduction
+
+1.1 The Android Software Development Kit (referred to in this License Agreement as the "SDK" and specifically including the Android system files, packaged APIs, and Google APIs add-ons) is licensed to you subject to the terms of this License Agreement. This License Agreement forms a legally binding contract between you and Google in relation to your use of the SDK.
+
+1.2 "Android" means the Android software stack for devices, as made available under the Android Open Source Project, which is located at the following URL: http://source.android.com/, as updated from time to time.
+
+1.3 "Google" means Google Inc., a Delaware corporation with principal place of business at 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States.
+ 								</span>
+							<br>
+						</div>
+					</ion-scroll>	
+				</div>	  
+			</div>
+		</div>
+	-->
+<div class="item item-divider pull-text-center history-header" ng-bind="FAQ"></div>
+		<div class="item item-body">
+					<p>
+						<span style="color:#FDD927">Ques: What is Mobbanner?<br></span>
+									    Ans: Mobbanner is a Simple Android App, gives free mobile recharge to users for downloading offer apps.<br><br>
+				
+						<span style="color:#FDD927">Ques: How do I join Mobbaner?<br></span>
+									    Ans: Mobbanner is zero cost, to be a member. All you have to do is install Mobbanner App from Google play store into your mobile device. Fill the fields and confirm with registered email address.
+<br><br>
+									    				
+						<span style="color:#FDD927">Ques: How do I earn free recharge from Mobbanner App?<br></span>
+									    Ans: Just need to login into your Mobbanner account and install listed offers. After installing the app, Open the app screen for 3 sec.
+<br><br>
+									    				
+						<span style="color:#FDD927">Ques: How do I redeem my points?<br></span>
+									    Ans: Go to balance tab, Input the number to recharge, Select the operator and enter the amount.<br><br>
+									    				
+						<span style="color:#FDD927">Ques: How do I delete my account?<br></span>
+									    Ans: If you don't want to be a Mobbanner user, send an email remove@mobbanner.com<br><br>
+									    				
+						<span style="color:#FDD927">Ques: How to change the Password?<br></span>
+									    Ans: Go to menu tab, click password then enter your new password.<br><br>
+									    				
+						<span style="color:#FDD927">Ques: What if I forget my password?<br></span>
+									    Ans: If you don't remember your password, you can reset easily with simple steps. Go to home screen, click forgot password, then enter the associated email address. Follow the email instructions on changing the password.<br><br>
+									    				
+						<span style="color:#FDD927">Ques: My balance not updated,after installing? <br></span>
+									    Ans: If you have installed  the listed offers in the past using same device, you won't get any points.<br><br>
+						    
+					</p>
+		</div>
+	</div>
+  </ion-content>
+
+<ion-footer-bar align-title="center" style="text-align: center !important;margin: 0 auto;align:center;">
+<!--<div style="text-align: center !important;margin: 0 auto" >
+<span style="color:#FDD927"><a href="http://mobbanner.com/privacy-policy/" style="color:#FDD927">Privacy Policy</a></span><br><span style="color:#FDD927" > <a href="http://www.mobbanner.com/terms-conditions/" style="color:#FDD927"> Terms&Conditions </span> | <span style="color:#FDD927" ng-click="goFAQ()" >FAQ </span>
+</div>
+</ion-footer-bar>
+-->
+<!--
+<div style="text-align: center !important;margin: 0 auto" >
+<span style="color:#FDD927" ng-click="goPrivacyPolicy()" >Privacy Policy</span><br><span style="color:#FDD927" ng-click="goTerms()" >Terms&Conditions </span> | <span style="color:#FDD927" ng-click="goFAQ()" >FAQ </span>
+</div>
+-->
+
+<div style="text-align: center !important;margin: 0 auto;align:center;" >
+<label style="color:#FDD927;" ng-click="goPrivacyPolicy()" >PrivacyPolicy</label> <br> <label style="color:#FDD927;" ng-click="goTerms()" >Terms&Conditions </label> | <label style="color:#FDD927;" ng-click="goFAQ()" >FAQ </label>
+</div>
+</ion-footer-bar>
+</ion-view>

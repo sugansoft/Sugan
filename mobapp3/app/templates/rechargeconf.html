@@ -1,0 +1,57 @@
+<ion-view title='{{pageHeader}}' hide-back-button="true" class="mb-app-body">
+<ion-nav-buttons side="left">
+      <button class="button button-clear" ng-click="goBack()">
+        <i class="icon ion-ios7-arrow-back"></i>
+      </button>
+</ion-nav-buttons>
+
+   <ion-content class="has-header padding">
+	<br>
+<center>
+   <div ng-bind="RECHARGE" style="font-size:110%"></div>
+</center>
+   	<br>
+    <div class="list app-balance-list">
+  
+  			
+       		<!------------------------- NAME ------------------------------------------->	
+		<div class="item app-balance-list-container1">
+         
+			<span class="balance-label">Mobile Number</span>
+			<span class="balance-text">{{mobile}}</span>
+			
+
+			
+       		</div>
+		
+		<div class="item app-balance-list-container1">
+         
+			<span class="balance-label">Operator</span>
+			<span class="balance-text">
+				 {{operator}}
+			</span>
+       		</div>
+       		
+       		<div class="item app-balance-list-container1">
+         
+			<span class="balance-label">Amount</span>
+			<span class="balance-text">
+				 {{amount}}
+			</span>
+       		</div>
+
+		<center>
+		<div class="buttons">
+				<button class="button login-button-1" ng-click="goCancel();">{{rechargeCancel}}</button>&nbsp;&nbsp;
+				<button class="button login-button-2" ng-click="goSubmit();">{{rechargeSubmit}}</button>
+                </div>
+		</center>
+		
+     <div>	        
+    <br><br><br><br><br>
+
+ 
+  </ion-content>
+</ion-view>
+
+

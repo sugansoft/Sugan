@@ -1,0 +1,102 @@
+<ion-view title="{{pageHeader}}"  hide-back-button="true" class="mb-app-body">
+	<ion-nav-buttons side="left">
+      <button class="button button-clear" ng-click="goBack()">
+        <i class="icon ion-ios7-arrow-back"></i>
+      </button>
+    </ion-nav-buttons>
+	<ion-content class="has-header padding mb-app-header">
+		<form name="registerForm"  id="registerForm" novalidate ng-submit="signup(registerForm.$valid,user)" >
+		<!--FORM CONTENT START-->
+		<div class="list list-inset form-list">
+					
+		<!------------------------- NAME ------------------------------------------->	
+		<div ng-class="{ 'has-error' : registerForm.firstname.$invalid && !registerForm.firstname.$pristine }">
+			<label class="item item-input register-input">
+				<input type="text" placeholder="Name" name="firstname" class="form-control"  ng-pattern="namepattern" ng-model="user.firstname" ng-minlength="3"  ng-maxlength="20" required autofocus>
+			</label>
+		</div>
+			<p ng-show="registerForm.firstname.$invalid && !registerForm.firstname.$pristine && !registerForm.firstname.$error.minlength && !registerForm.firstname.$error.maxlength && !registerForm.firstname.$valid" class="help-block">Valid Name Required.</p>
+
+		<p ng-show="registerForm.firstname.$error.minlength" class="help-block">Minimum 3 characters required</p>
+		<p ng-show="registerForm.firstname.$error.maxlength" class="help-block">Maximum 20 characters allowed</p>
+		
+		<!------------------------ EMAIL ADDRESS ----------------------------------->
+		<div ng-class="{ 'has-error' : registerForm.email.$invalid && !registerForm.email.$pristine }">
+			<label class="item item-input register-input">
+				<input type="email" placeholder="Email Address" name="email" class="form-control" ng-pattern="emailpattern" ng-model="user.email" required>
+			</label>
+		</div>
+		<p ng-show="registerForm.email.$invalid && !registerForm.email.$pristine && !registerForm.email.$valid" class="help-block">Enter a valid email</p>
+
+		
+			
+		<!------------------------ PASSWORD ---------------------------------------->
+		<div ng-class="{ 'has-error' : registerForm.password.$invalid && !registerForm.password.$pristine }">
+			<label class="item item-input register-input">
+				<input type="password" placeholder="Password"  name="password" class="form-control" ng-model="user.password" required ng-minlength=6>
+			</label>
+			
+		</div>
+		<p ng-show="registerForm.password.$invalid && !registerForm.password.$pristine && !registerForm.password.$error.minlength" class="help-block">Password Required.</p>
+<p ng-show="registerForm.password.$error.minlength && !registerForm.password.$error.required" class="help-block">Enter 6 characters atleast</p>
+		</div>		
+		
+		<!------------------------ DATE OF BIRTH ----------------------------------->
+		<!--
+		<div ng-class="{ 'has-error' : registerForm.dob.$invalid && !registerForm.dob.$pristine }">
+			<label class="item item-input register-input" ng-click="pick('date')">
+				<input type="text" placeholder="Date of birth" name="dob1" class="form-control" ng-model="user.dob1" required>
+			</label>
+		</div>
+		-->
+		<!------------------------ AGE ----------------------------------->
+		<div ng-class="{ 'has-error' : registerForm.age.$invalid && !registerForm.age.$pristine }">
+			<label class="item item-input register-input">
+				<input type="number" placeholder="Age" name="age" class="form-control" ng-model="user.age" ng-pattern="agepattern" ng-minlength="1"  ng-maxlength="2" required>
+			</label>
+		</div>
+		<p ng-show="registerForm.age.$invalid && !registerForm.age.$pristine && !registerForm.age.$error.minlength && !registerForm.age.$error.maxlength && !registerForm.age.$valid" class="help-block">Enter a valid Age</p>
+		<p ng-show="registerForm.age.$error.minlength" class="help-block">Minimum 1 digit required</p>
+		<p ng-show="registerForm.age.$error.maxlength" class="help-block">Maximum 2 digits allowed</p>
+
+		<!------------------------ COUNTRY -------------------------------------------->
+		<!--
+		<div ng-class="{ 'has-error' : registerForm.country.$invalid && !registerForm.country.$pristine }">
+			<label class="item item-input register-input">
+				
+				<input type="text" placeholder="Country" ng-click="select()" class="form-control" ng-model="user.countryname" required>
+				
+			</label>
+		</div>	
+		-->	
+		<div id="register_radio">
+		Gender :&nbsp;&nbsp;
+			<input type="radio" class="radi" ng-model="user.gender" name="gender"  value="1" > Male&nbsp;&nbsp; 
+			<input type="radio" class="radi" ng-model="user.gender" name="gender" value="2" > Female
+		</div>
+		
+		
+		
+		<!------------------------ PHONE ------------------------------------------->
+		<div ng-class="{ 'has-error' : registerForm.mobile.$invalid && !registerForm.mobile.$pristine}">
+			<label class="item item-input register-input">
+				<input type="number" placeholder="Phone" name="mobile" class="form-control" ng-model="user.mobile" ng-minlength="10" ng-maxlength="10"  ng-pattern="phonepattern" required>
+				 
+			</label>
+		</div>
+		<p ng-show="registerForm.mobile.$invalid && !registerForm.mobile.$pristine && !registerForm.mobile.$error.minlength && !registerForm.mobile.$error.maxlength && !registerForm.mobile.$valid" class="help-block">Phone No Required.</p>
+		<p ng-show="registerForm.mobile.$error.minlength && !registerForm.mobile.$error.required " class="help-block">10 Digit Number required</p>
+		<p ng-show="registerForm.mobile.$error.maxlength && !registerForm.mobile.$error.required" class="help-block">10 Digit Number required</p>
+
+
+		
+	</div>		
+	<div class="padding">
+		<button class="button button-block login-button-2" ng-disabled="registerForm.$invalid">{{appRegistersubmit}}</button>
+	</div>
+	<input type="text" style="visibility:hidden" name="country" ng-model="user.country">
+	<input type="text" style="visibility:hidden" name="dob" ng-model="user.dob">
+	<!--FORM CONTENT END-->
+	</form>
+	</ion-content>
+</ion-view>
