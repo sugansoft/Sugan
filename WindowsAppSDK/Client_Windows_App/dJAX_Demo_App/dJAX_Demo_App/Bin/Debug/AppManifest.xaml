@@ -1,0 +1,7 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="dJAX_Demo_App" EntryPointType="dJAX_Demo_App.App" RuntimeVersion="4.7.50308.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="dJAX_Demo_App" Source="dJAX_Demo_App.dll" />
+    <AssemblyPart x:Name="dJAX_Lib" Source="dJAX_Lib.dll" />
+    <AssemblyPart x:Name="Newtonsoft.Json" Source="Newtonsoft.Json.dll" />
+  </Deployment.Parts>
+</Deployment>

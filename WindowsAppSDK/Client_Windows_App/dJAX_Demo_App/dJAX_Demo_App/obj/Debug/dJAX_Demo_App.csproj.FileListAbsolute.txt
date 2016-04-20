@@ -1,0 +1,51 @@
+C:\Users\dreamajax\Desktop\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\ApplicationIcon.png
+C:\Users\dreamajax\Desktop\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\Background.png
+C:\Users\dreamajax\Desktop\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\dJAX_Demo_App.dll
+C:\Users\dreamajax\Desktop\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\dJAX_Demo_App.pdb
+C:\Users\dreamajax\Desktop\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\AppManifest.xaml
+C:\Users\dreamajax\Desktop\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\dJAX_Demo_App.xap
+C:\Users\dreamajax\Desktop\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\dJAX_Lib.dll
+C:\Users\dreamajax\Desktop\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\Newtonsoft.Json.dll
+C:\Users\dreamajax\Desktop\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\dJAX_Lib.pdb
+C:\Users\dreamajax\Desktop\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\Newtonsoft.Json.xml
+C:\Users\dreamajax\Desktop\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dreamajax\Desktop\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\obj\Debug\App.g.i.cs
+C:\Users\dreamajax\Desktop\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\obj\Debug\MainPage.g.i.cs
+C:\Users\dreamajax\Desktop\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\obj\Debug\dJAX_Demo_App.g.resources
+C:\Users\dreamajax\Desktop\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\obj\Debug\dJAX_Demo_App.dll
+C:\Users\dreamajax\Desktop\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\obj\Debug\dJAX_Demo_App.pdb
+C:\Users\dreamajax\Desktop\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\obj\Debug\XapCacheFile.xml
+C:\Users\dreamajax\Desktop\Windows-SDK\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\ApplicationIcon.png
+C:\Users\dreamajax\Desktop\Windows-SDK\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\Background.png
+C:\Users\dreamajax\Desktop\Windows-SDK\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\dJAX_Demo_App.dll
+C:\Users\dreamajax\Desktop\Windows-SDK\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\dJAX_Demo_App.pdb
+C:\Users\dreamajax\Desktop\Windows-SDK\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\AppManifest.xaml
+C:\Users\dreamajax\Desktop\Windows-SDK\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\dJAX_Demo_App.xap
+C:\Users\dreamajax\Desktop\Windows-SDK\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\dJAX_Lib.dll
+C:\Users\dreamajax\Desktop\Windows-SDK\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\Newtonsoft.Json.dll
+C:\Users\dreamajax\Desktop\Windows-SDK\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\dJAX_Lib.pdb
+C:\Users\dreamajax\Desktop\Windows-SDK\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\Newtonsoft.Json.xml
+C:\Users\dreamajax\Desktop\Windows-SDK\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dreamajax\Desktop\Windows-SDK\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\obj\Debug\App.g.i.cs
+C:\Users\dreamajax\Desktop\Windows-SDK\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\obj\Debug\MainPage.g.i.cs
+C:\Users\dreamajax\Desktop\Windows-SDK\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\obj\Debug\dJAX_Demo_App.g.resources
+C:\Users\dreamajax\Desktop\Windows-SDK\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\obj\Debug\dJAX_Demo_App.dll
+C:\Users\dreamajax\Desktop\Windows-SDK\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\obj\Debug\dJAX_Demo_App.pdb
+C:\Users\dreamajax\Desktop\Windows-SDK\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\obj\Debug\XapCacheFile.xml
+C:\Users\djax\Desktop\Elitecore\Windows SDK\Backup-Lap\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\ApplicationIcon.png
+C:\Users\djax\Desktop\Elitecore\Windows SDK\Backup-Lap\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\Background.png
+C:\Users\djax\Desktop\Elitecore\Windows SDK\Backup-Lap\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\dJAX_Demo_App.dll
+C:\Users\djax\Desktop\Elitecore\Windows SDK\Backup-Lap\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\dJAX_Demo_App.pdb
+C:\Users\djax\Desktop\Elitecore\Windows SDK\Backup-Lap\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\AppManifest.xaml
+C:\Users\djax\Desktop\Elitecore\Windows SDK\Backup-Lap\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\dJAX_Demo_App.xap
+C:\Users\djax\Desktop\Elitecore\Windows SDK\Backup-Lap\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\dJAX_Lib.dll
+C:\Users\djax\Desktop\Elitecore\Windows SDK\Backup-Lap\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\Newtonsoft.Json.dll
+C:\Users\djax\Desktop\Elitecore\Windows SDK\Backup-Lap\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\dJAX_Lib.pdb
+C:\Users\djax\Desktop\Elitecore\Windows SDK\Backup-Lap\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\Bin\Debug\Newtonsoft.Json.xml
+C:\Users\djax\Desktop\Elitecore\Windows SDK\Backup-Lap\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\obj\Debug\dJAX_Demo_App.csprojResolveAssemblyReference.cache
+C:\Users\djax\Desktop\Elitecore\Windows SDK\Backup-Lap\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\obj\Debug\App.g.i.cs
+C:\Users\djax\Desktop\Elitecore\Windows SDK\Backup-Lap\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\obj\Debug\MainPage.g.i.cs
+C:\Users\djax\Desktop\Elitecore\Windows SDK\Backup-Lap\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\obj\Debug\dJAX_Demo_App.g.resources
+C:\Users\djax\Desktop\Elitecore\Windows SDK\Backup-Lap\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\obj\Debug\dJAX_Demo_App.dll
+C:\Users\djax\Desktop\Elitecore\Windows SDK\Backup-Lap\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\obj\Debug\dJAX_Demo_App.pdb
+C:\Users\djax\Desktop\Elitecore\Windows SDK\Backup-Lap\Client Projects-Windows SDK\dJAX_Demo_App\dJAX_Demo_App\obj\Debug\XapCacheFile.xml

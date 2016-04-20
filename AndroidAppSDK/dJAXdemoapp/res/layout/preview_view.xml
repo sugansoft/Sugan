@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+     <LinearLayout
+            style="@style/widthFillheightWrap"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:id="@+id/preview_frag" 
+		    android:focusable="true">
+	     	<requestFocus />
+	     </LinearLayout>
+	     <!-- 
+	     <LinearLayout
+	         android:fromXScale="1.0"
+   			 android:toXScale="1.2"
+    android:fromYScale="1.0"
+    android:toYScale="1.2"
+    android:pivotX="50%p"
+    android:pivotY="50%p"
+	         android:background="#00FF00"
+		     android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    android:id="@+id/preview_frag" 
+		    android:focusable="true"
+		    android:layout_weight="1"
+		    android:padding="0dp"
+		     android:fillViewport="true"
+		     android:scaleType="centerCrop"
+		    >
+	     	<requestFocus />
+	     </LinearLayout>	-->
+	     
+	     <TextView
+	         	android:visibility="gone"
+                style="@style/header"
+                android:text="@string/sample_code"
+                />
+		<RelativeLayout 
+		    android:visibility="gone"
+		    style="@style/snippetContainer">
+	     <TextView
+	              android:id="@+id/snippet_component_content"
+	              android:paddingLeft="8dp"
+	              android:paddingRight="8dp"
+	              android:layout_width="fill_parent"
+	              android:layout_height="wrap_content"
+	              android:textIsSelectable="true"/>
+		</RelativeLayout>
+		<RelativeLayout
+		    android:visibility="gone" 
+		    style="@style/snippetContainer">
+	     <TextView
+	              android:id="@+id/snippet_program_content"
+	              android:paddingLeft="8dp"
+	              android:paddingRight="8dp"
+	              android:layout_width="fill_parent"
+	              android:layout_height="wrap_content"
+	              android:textIsSelectable="true"/>
+		</RelativeLayout>  
+	</LinearLayout>
+</ScrollView>

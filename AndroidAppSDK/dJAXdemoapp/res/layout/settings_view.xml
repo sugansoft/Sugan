@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:id="@+id/setting_frag">
+    <LinearLayout
+            style="@style/widthFillheightWrap"
+            android:orientation="vertical"
+            >
+	<TextView
+                style="@style/header"
+                android:text="@string/general"
+                />
+	<!-- General -->
+	<RelativeLayout style="@style/itemContainer">
+    	<!-- Zone ID -->
+	    <TextView
+                style="@style/header_zone_id"
+                android:text="@string/zone_id"
+                android:id="@+id/txt_zone_id"
+                />
+        <LinearLayout
+                    android:layout_toRightOf="@id/txt_zone_id"
+                    android:layout_alignTop="@id/txt_zone_id"
+                    android:layout_alignBottom="@id/txt_zone_id"
+                    android:gravity="right"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+	        <EditText
+	                 android:id="@+id/edit_zoneid"
+	                 style="@style/header_zone_id_text_box"
+	                 android:inputType="number"
+	                 android:hint="@string/ph_edit_zoneid"
+	                 android:layout_width="match_parent"
+        			 android:layout_height="wrap_content"
+	                 />
+        </LinearLayout>
+	
+	</RelativeLayout>
+	
+	<RelativeLayout style="@style/itemContainer" android:visibility="gone">
+	    <!-- Size -->
+	    <TextView
+                style="@style/header_zone_id"
+                android:text="@string/settings_txt_size"
+                android:id="@+id/txt_size"
+                />
+        <LinearLayout
+                    android:layout_toRightOf="@id/txt_size"
+                    android:layout_alignTop="@id/txt_size"
+                    android:layout_alignBottom="@id/txt_size"
+                    android:gravity="right"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+	        <Spinner
+                    android:id="@+id/dropdown_size"
+                    style="@style/header_zone_id_text_box"
+                    android:layout_width="match_parent"
+        			android:layout_height="wrap_content"
+                    />
+        </LinearLayout>
+	
+	</RelativeLayout>
+	<RelativeLayout style="@style/itemContainer" android:visibility="gone">
+	    <!-- Refresh Rate -->
+	    <TextView
+                style="@style/header_zone_id"
+                android:text="@string/settings_refresh_rate"
+                android:id="@+id/refresh_rate"
+                />
+        <LinearLayout
+                    android:layout_toRightOf="@id/refresh_rate"
+                    android:layout_alignTop="@id/refresh_rate"
+                    android:layout_alignBottom="@id/refresh_rate"
+                    android:gravity="right"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+	        <Spinner
+                    android:id="@+id/dropdown_refresh"
+                    style="@style/header_zone_id_text_box"
+                    android:layout_width="match_parent"
+        			android:layout_height="wrap_content"
+                    />
+        </LinearLayout>
+	
+	</RelativeLayout>
+	<RelativeLayout style="@style/itemContainer" android:visibility="gone">
+	    <!-- Layer Style -->
+	    <TextView
+                style="@style/header_zone_id"
+                android:text="@string/settings_layer_style"
+                android:id="@+id/layer_style"
+                />
+        <LinearLayout
+                    android:layout_toRightOf="@id/layer_style"
+                    android:layout_alignTop="@id/layer_style"
+                    android:layout_alignBottom="@id/layer_style"
+                    android:gravity="right"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+	        <Spinner
+                    android:id="@+id/dropdown_layer_style"
+                    style="@style/header_zone_id_text_box"
+                    android:layout_width="match_parent"
+        			android:layout_height="wrap_content"
+                    />
+        </LinearLayout>
+	
+	</RelativeLayout>
+	<RelativeLayout style="@style/itemContainer" android:visibility="gone">
+	    <!-- Align -->
+	    <TextView
+                style="@style/header_zone_id"
+                android:text="@string/settings_align"
+                android:id="@+id/align"
+                />
+	     <LinearLayout
+                    android:layout_toRightOf="@id/align"
+                    android:layout_alignTop="@id/align"
+                    android:layout_alignBottom="@id/align"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+	        	<Spinner
+                    android:id="@+id/dropdown_align"
+                    style="@style/header_zone_id_text_box"
+                    android:layout_width="match_parent"
+        			android:layout_height="wrap_content"
+                    />
+        </LinearLayout>
+	</RelativeLayout>
+	
+	<RelativeLayout style="@style/itemContainer" android:visibility="gone">
+	    <!-- padding Style -->
+	    <TextView
+                style="@style/header_zone_id"
+                android:text="@string/settings_padding"
+                android:id="@+id/padding"
+                />
+        <LinearLayout
+                    android:layout_toRightOf="@id/padding"
+                    android:layout_alignTop="@id/padding"
+                    android:layout_alignBottom="@id/padding"
+                    android:gravity="right"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+	        <Spinner
+                    android:id="@+id/dropdown_padding"
+                    style="@style/header_zone_id_text_box"
+                    android:layout_width="match_parent"
+        			android:layout_height="wrap_content"
+                    />
+	   </LinearLayout>
+	
+	</RelativeLayout>
+    <!-- Load Ad Button -->
+	<Button
+        android:id="@+id/btn_load_ad"
+        style="@style/button"
+        android:text="@string/load_ad_button"
+        />                  
+    </LinearLayout>
+</ScrollView>

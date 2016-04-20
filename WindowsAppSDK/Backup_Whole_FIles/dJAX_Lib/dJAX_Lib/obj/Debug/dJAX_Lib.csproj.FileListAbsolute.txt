@@ -1,0 +1,21 @@
+C:\Users\dreamajax\Desktop\Client Projects-Windows SDK\dJAX_Lib\dJAX_Lib\Bin\Debug\dJAX_Lib.dll
+C:\Users\dreamajax\Desktop\Client Projects-Windows SDK\dJAX_Lib\dJAX_Lib\Bin\Debug\dJAX_Lib.pdb
+C:\Users\dreamajax\Desktop\Client Projects-Windows SDK\dJAX_Lib\dJAX_Lib\Bin\Debug\Newtonsoft.Json.dll
+C:\Users\dreamajax\Desktop\Client Projects-Windows SDK\dJAX_Lib\dJAX_Lib\Bin\Debug\Newtonsoft.Json.xml
+C:\Users\dreamajax\Desktop\Client Projects-Windows SDK\dJAX_Lib\dJAX_Lib\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dreamajax\Desktop\Client Projects-Windows SDK\dJAX_Lib\dJAX_Lib\obj\Debug\dJAX_Lib.dll
+C:\Users\dreamajax\Desktop\Client Projects-Windows SDK\dJAX_Lib\dJAX_Lib\obj\Debug\dJAX_Lib.pdb
+C:\Users\dreamajax\Desktop\Windows-SDK\Client Projects-Windows SDK\dJAX_Lib\dJAX_Lib\Bin\Debug\dJAX_Lib.dll
+C:\Users\dreamajax\Desktop\Windows-SDK\Client Projects-Windows SDK\dJAX_Lib\dJAX_Lib\Bin\Debug\dJAX_Lib.pdb
+C:\Users\dreamajax\Desktop\Windows-SDK\Client Projects-Windows SDK\dJAX_Lib\dJAX_Lib\Bin\Debug\Newtonsoft.Json.dll
+C:\Users\dreamajax\Desktop\Windows-SDK\Client Projects-Windows SDK\dJAX_Lib\dJAX_Lib\Bin\Debug\Newtonsoft.Json.xml
+C:\Users\dreamajax\Desktop\Windows-SDK\Client Projects-Windows SDK\dJAX_Lib\dJAX_Lib\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dreamajax\Desktop\Windows-SDK\Client Projects-Windows SDK\dJAX_Lib\dJAX_Lib\obj\Debug\dJAX_Lib.dll
+C:\Users\dreamajax\Desktop\Windows-SDK\Client Projects-Windows SDK\dJAX_Lib\dJAX_Lib\obj\Debug\dJAX_Lib.pdb
+C:\Users\djax\Desktop\Elitecore\Windows SDK\Backup-Lap\Client Projects-Windows SDK\dJAX_Lib\dJAX_Lib\Bin\Debug\dJAX_Lib.dll
+C:\Users\djax\Desktop\Elitecore\Windows SDK\Backup-Lap\Client Projects-Windows SDK\dJAX_Lib\dJAX_Lib\Bin\Debug\dJAX_Lib.pdb
+C:\Users\djax\Desktop\Elitecore\Windows SDK\Backup-Lap\Client Projects-Windows SDK\dJAX_Lib\dJAX_Lib\Bin\Debug\Newtonsoft.Json.dll
+C:\Users\djax\Desktop\Elitecore\Windows SDK\Backup-Lap\Client Projects-Windows SDK\dJAX_Lib\dJAX_Lib\Bin\Debug\Newtonsoft.Json.xml
+C:\Users\djax\Desktop\Elitecore\Windows SDK\Backup-Lap\Client Projects-Windows SDK\dJAX_Lib\dJAX_Lib\obj\Debug\dJAX_Lib.csprojResolveAssemblyReference.cache
+C:\Users\djax\Desktop\Elitecore\Windows SDK\Backup-Lap\Client Projects-Windows SDK\dJAX_Lib\dJAX_Lib\obj\Debug\dJAX_Lib.dll
+C:\Users\djax\Desktop\Elitecore\Windows SDK\Backup-Lap\Client Projects-Windows SDK\dJAX_Lib\dJAX_Lib\obj\Debug\dJAX_Lib.pdb
