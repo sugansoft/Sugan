@@ -1,0 +1,15 @@
+C:\Users\dreamajax\Desktop\Suganya\With WindowsSDK\WindowsSDK_Demo_App\WindowsSDK_Demo_App\WindowsSDK_Demo_App\Bin\Debug\ApplicationIcon.png
+C:\Users\dreamajax\Desktop\Suganya\With WindowsSDK\WindowsSDK_Demo_App\WindowsSDK_Demo_App\WindowsSDK_Demo_App\Bin\Debug\Background.png
+C:\Users\dreamajax\Desktop\Suganya\With WindowsSDK\WindowsSDK_Demo_App\WindowsSDK_Demo_App\WindowsSDK_Demo_App\Bin\Debug\WindowsSDK_Demo_App.dll
+C:\Users\dreamajax\Desktop\Suganya\With WindowsSDK\WindowsSDK_Demo_App\WindowsSDK_Demo_App\WindowsSDK_Demo_App\Bin\Debug\WindowsSDK_Demo_App.pdb
+C:\Users\dreamajax\Desktop\Suganya\With WindowsSDK\WindowsSDK_Demo_App\WindowsSDK_Demo_App\WindowsSDK_Demo_App\Bin\Debug\AppManifest.xaml
+C:\Users\dreamajax\Desktop\Suganya\With WindowsSDK\WindowsSDK_Demo_App\WindowsSDK_Demo_App\WindowsSDK_Demo_App\Bin\Debug\WindowsSDK_Demo_App.xap
+C:\Users\dreamajax\Desktop\Suganya\With WindowsSDK\WindowsSDK_Demo_App\WindowsSDK_Demo_App\WindowsSDK_Demo_App\Bin\Debug\Newtonsoft.Json.dll
+C:\Users\dreamajax\Desktop\Suganya\With WindowsSDK\WindowsSDK_Demo_App\WindowsSDK_Demo_App\WindowsSDK_Demo_App\Bin\Debug\WindowsSDK_Lib.dll
+C:\Users\dreamajax\Desktop\Suganya\With WindowsSDK\WindowsSDK_Demo_App\WindowsSDK_Demo_App\WindowsSDK_Demo_App\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dreamajax\Desktop\Suganya\With WindowsSDK\WindowsSDK_Demo_App\WindowsSDK_Demo_App\WindowsSDK_Demo_App\obj\Debug\App.g.i.cs
+C:\Users\dreamajax\Desktop\Suganya\With WindowsSDK\WindowsSDK_Demo_App\WindowsSDK_Demo_App\WindowsSDK_Demo_App\obj\Debug\MainPage.g.i.cs
+C:\Users\dreamajax\Desktop\Suganya\With WindowsSDK\WindowsSDK_Demo_App\WindowsSDK_Demo_App\WindowsSDK_Demo_App\obj\Debug\WindowsSDK_Demo_App.g.resources
+C:\Users\dreamajax\Desktop\Suganya\With WindowsSDK\WindowsSDK_Demo_App\WindowsSDK_Demo_App\WindowsSDK_Demo_App\obj\Debug\WindowsSDK_Demo_App.dll
+C:\Users\dreamajax\Desktop\Suganya\With WindowsSDK\WindowsSDK_Demo_App\WindowsSDK_Demo_App\WindowsSDK_Demo_App\obj\Debug\WindowsSDK_Demo_App.pdb
+C:\Users\dreamajax\Desktop\Suganya\With WindowsSDK\WindowsSDK_Demo_App\WindowsSDK_Demo_App\WindowsSDK_Demo_App\obj\Debug\XapCacheFile.xml

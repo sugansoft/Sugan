@@ -1,0 +1,11 @@
+C:\Users\dreamajax\Desktop\Suganya\MaxxRTB-namechange\With WindowsSDK\WindowsSDK_Lib\WindowsSDK_Lib\Bin\Debug\WindowsSDK_Lib.dll
+C:\Users\dreamajax\Desktop\Suganya\MaxxRTB-namechange\With WindowsSDK\WindowsSDK_Lib\WindowsSDK_Lib\Bin\Debug\WindowsSDK_Lib.pdb
+C:\Users\dreamajax\Desktop\Suganya\MaxxRTB-namechange\With WindowsSDK\WindowsSDK_Lib\WindowsSDK_Lib\Bin\Debug\Newtonsoft.Json.dll
+C:\Users\dreamajax\Desktop\Suganya\MaxxRTB-namechange\With WindowsSDK\WindowsSDK_Lib\WindowsSDK_Lib\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dreamajax\Desktop\Suganya\MaxxRTB-namechange\With WindowsSDK\WindowsSDK_Lib\WindowsSDK_Lib\obj\Debug\WindowsSDK_Lib.dll
+C:\Users\dreamajax\Desktop\Suganya\MaxxRTB-namechange\With WindowsSDK\WindowsSDK_Lib\WindowsSDK_Lib\obj\Debug\WindowsSDK_Lib.pdb
+C:\Users\dreamajax\Desktop\Suganya\With WindowsSDK\WindowsSDK_Lib\WindowsSDK_Lib\Bin\Debug\WindowsSDK_Lib.dll
+C:\Users\dreamajax\Desktop\Suganya\With WindowsSDK\WindowsSDK_Lib\WindowsSDK_Lib\Bin\Debug\WindowsSDK_Lib.pdb
+C:\Users\dreamajax\Desktop\Suganya\With WindowsSDK\WindowsSDK_Lib\WindowsSDK_Lib\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dreamajax\Desktop\Suganya\With WindowsSDK\WindowsSDK_Lib\WindowsSDK_Lib\obj\Debug\WindowsSDK_Lib.dll
+C:\Users\dreamajax\Desktop\Suganya\With WindowsSDK\WindowsSDK_Lib\WindowsSDK_Lib\obj\Debug\WindowsSDK_Lib.pdb
