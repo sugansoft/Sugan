@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >  
+     
+ <Button
+    android:id="@+id/bClose"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_alignParentRight="true"
+    android:layout_margin="0dp"
+    android:background="@drawable/round_button_background"
+    android:gravity="center_vertical|center_horizontal"
+    android:onClick="cancelActivity"
+    android:text="@string/x_close" 
+    android:textColor="#FFF"
+    android:textSize="15sp"
+    android:textStyle="bold"
+    android:layout_alignParentTop="true" />
+
+     <LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="horizontal"
+		    android:gravity="center_vertical|center_horizontal"
+		    android:id="@+id/preview_frag"
+		    android:focusable="true"
+		 	>
+	     	<requestFocus />
+	 </LinearLayout>	
+</RelativeLayout>
